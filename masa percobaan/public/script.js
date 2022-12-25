@@ -27,7 +27,7 @@ getForm.addEventListener("submit",(event) =>{
 // lalukan perulangan untuk ambil data
     USERS.forEach((user) => {
         //percabangan
-        if(getUsername.value == user.Username && getPassword.value == user.Password) {
+        if(getUsername.value == user.username && getPassword.value == user.password) {
             alert("oke berhasil login");
         } else {
             alert("Invalid Credentials");
